@@ -1,3 +1,4 @@
+.manus-logs
 node_modules
 dist
 .pnpm-store
