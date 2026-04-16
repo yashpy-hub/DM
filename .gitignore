@@ -1,4 +1,28 @@
-.manus-logs
-node_modules
-dist
-.pnpm-store
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build outputs
+dist/
+build/
+.next/
+
+# Environment
+.env*
+!.env.example
+
+# Logs
+.manus-logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+photos/
+client/public/__manus__/
